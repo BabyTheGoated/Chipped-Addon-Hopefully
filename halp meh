@@ -1,0 +1,7 @@
+repositories {
+    maven(url = "https://maven.teamresourceful.com/repository/maven-public/")
+}
+
+dependencies {
+    modImplementation(group = "earth.terrarium.chipped", name = "chipped-$modLoader-$minecraftVersion", version = chippedVersion)
+}
